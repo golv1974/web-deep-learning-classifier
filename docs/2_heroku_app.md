@@ -21,7 +21,7 @@ wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 heroku login
 heroku container:login
 
-APP_NAME="food-img-classifier"
+APP_NAME="tree-img-classifier"
 heroku create $APP_NAME
 
 heroku container:push web --app ${APP_NAME}
@@ -34,6 +34,6 @@ heroku logs --tail --app ${APP_NAME}
 Note:  After 15 minutes of inactivity, Heroku will suspend the app.  The next time the web app is called, Heroku will restart the app.  There could be a slight delay in starting the app.
  
 ## Our Flask Web Application
-- Our Flask web app is available here:  [**food-img-classifier.herokuapp.com**](https://food-img-classifier.herokuapp.com)
+- Our Flask web app is available here:  [**tree-img-classifier.herokuapp.com**](https://tree-img-classifier.herokuapp.com)
 - Give it a try!  Upload an image or add a URL. 
 
